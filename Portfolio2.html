@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+   
+   
+    <title>Hello, world!</title>
+
+
+    <style type="text/css">
+
+      body {
+
+        margin: 0 auto;
+
+
+      }
+
+
+    #tlo {
+
+      background: url("Picture/background.jpg") no-repeat center/cover;
+      min-height: calc(100vh);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          
+          text-align:center;
+
+          color:white;
+
+          
+
+    }
+
+    h1 {
+
+      font-size:80px;
+      
+
+
+    }
+
+    #spanPortfolio {
+
+      color: yellow;
+
+
+    }
+
+    #divImie {
+
+      font-size:80px;
+
+
+    }
+
+
+    button{
+    text-decoration: none;
+    background: rgb(0,0,0,0.1);
+    text-align: center;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    position: relative;
+    width: 400px;
+    line-height: 65px;
+    display: inline-block;
+    font-family:arial;
+    font-weight:900;
+    font-size:30px;
+    overflow: hidden;
+    
+}
+    button:before {
+    content: "";
+    background-color: rgba(255,255,0,0.5);
+    height: 100%;
+    width: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    transform: skewX(-45deg) translateX(0px);
+    transition: none;
+  }
+    button:hover{
+   
+    color: white;
+    border-bottom: 2px solid yellow;
+}
+
+    button:hover:before{
+    transform: skewX(-45deg) translateX(500px);
+    transition: all 0.7s ease-in;
+}
+    
+    
+      
+
+    </style>
+
+  </head>
+  
+  <body>
+
+    <div id="tlo">
+
+        <div id="portfolioDiv">
+          <p id="divImie"><span id="spanPortfolio">PORTFOLIO</span> ADRIAN GORNIAK</p>
+          <a href="glowna.php"><button >ZOBACZ SAM!</button></a>
+        </div>
+
+    </div>
+
+
+        
+   
+    
+    <script type="text/javascript">
+    
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,282 @@
+body {
+
+    background-color:black;
+    margin: 0 auto;
+    color:white;
+    position: relative;
+
+    
+    
+
+
+  }
+
+  
+  .text {
+
+    position: relative;
+    display: inline-block;
+    font-size: 130px;
+    font-weight:700;
+    letter-spacing: 20px;
+    
+    
+
+
+  }
+
+  .text::after {
+
+    content: attr(data-text);
+    position:absolute;
+    top: 0;
+    left: 0;
+    color: yellow;
+    overflow: hidden;
+    width:0%;
+    animation: loading 15s linear infinite;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px #CCCCCC;
+    
+
+  }
+
+  @keyframes loading {
+
+    0% {
+
+      width: 0%;
+
+
+    }
+
+    100% {
+
+      width: 100%;
+
+
+    }
+
+  }
+
+  #jumbo {
+
+    text-align: center;
+    background: url("Picture/bg.jpg") no-repeat center/cover;
+    min-height: calc(20vh);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+
+        
+
+  }
+
+  #rozmiar {
+
+    font-size: 40px;
+    font-weight:700;
+    
+
+
+  }
+
+  .headerStyle {
+
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+
+
+  }
+
+  .kolor {
+
+    color: yellow;
+
+  }
+
+
+  #zdjecieId {
+
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    border: yellow dashed 3px;
+
+  }
+
+  .textDecoration {
+
+    font-size: 20px;
+    font-weight:700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+
+  }
+
+  #oMnieTlo {
+
+    background: url("Picture/bgText1.jpg") no-repeat center/cover;
+    min-height: calc(100vh);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+        
+        
+
+
+  }
+
+  
+
+  
+
+
+  #zdjecieStyle {
+
+    width: 300px;
+    height: 200px;
+   
+
+
+  }
+
+  .imgStyle:hover {
+
+    
+    opacity:0.7;
+    border: yellow dashed 1px;
+    
+
+
+  }
+  
+  .row {
+
+
+    text-align: center;
+
+  }
+
+  .card-group {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+
+
+  }
+
+  .card {
+
+    margin-right: 30px;
+
+
+  }
+
+
+  .row-style {
+
+    padding-bottom: 50px;
+
+
+  }
+
+  
+  #umie{
+
+    background: url("Picture/bgumie4.jpg") no-repeat center/cover;
+    min-height: calc(50vh);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+
+       
+     
+
+    
+
+
+  }
+
+  .buttonClass{
+  text-decoration: none;
+  background: rgb(0,0,0,0.1);
+  text-align: center;
+  color: white;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  position: relative;
+  width: 120px;
+  line-height: 30px;
+  display: inline-block;
+  font-family:arial;
+  font-weight:600;
+  font-size:10px;
+  overflow: hidden;
+  
+}
+  .buttonClass:before {
+  content: "";
+  background-color: rgba(255,255,0,0.5);
+  height: 100%;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -70px;
+  transform: skewX(-45deg) translateX(0px);
+  transition: none;
+}
+  .buttonClass:hover{
+ 
+  color: white;
+  border-bottom: 2px solid yellow;
+}
+
+  .buttonClass:hover:before{
+  transform: skewX(-45deg) translateX(500px);
+  transition: all 1.1s ease-in;
+}
+
+
+#stopka {
+
+    padding:200px 100px 100px 100px;
+  
+
+
+}
+
+.floucik {
+
+    float: left;
+
+}
+
+#social {
+
+    
+    text-align: right;
+
+
+}
